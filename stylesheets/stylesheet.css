@@ -67,17 +67,17 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #275da1;
+  /*background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;*/
 }
 
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
-  color: #fff;
+  /*color: #fff;*/
   line-height: 1;
   margin-bottom: 0.2em;
-  width: 540px;
+  /*width: 540px;*/
 }
 
 header h2 {
@@ -96,12 +96,12 @@ header h2 {
 }
 
 #content-wrapper {
-  border-top: solid 1px #fff;
-  padding-top: 30px;
+  /*border-top: solid 1px #fff;*/
+  /*padding-top: 30px;*/
 }
 
 #main-content {
-  width: 690px;
+  width: 500px;
   float: left;
 }
 
@@ -110,7 +110,7 @@ header h2 {
 }
 
 aside#sidebar {
-  width: 200px;
+  width: 420px;
   padding-left: 20px;
   min-height: 504px;
   float: right;
@@ -477,3 +477,7 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+/* CUSTOM CSS */
+
+
