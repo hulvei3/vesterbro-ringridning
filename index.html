@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <script type="text/javascript" scr="javascript/countdown.min.js"></script>
+    <script scr="//javascript/countdown.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -50,7 +50,11 @@
           <h2>2. lørdag i August</h2>
         </aside>
 
+        <div id="countdown"></div>
+
         <aside>
+          <div class="fb-like-box" data-href="https://www.facebook.com/VesterbroRingridning" data-width="400" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="false" data-show-border="false"></div>
+
           <div class="fb-facepile" data-href="https://www.facebook.com/VesterbroRingridning" data-width="400" data-max-rows="4" data-colorscheme="light" data-size="medium" data-show-count="true"></div>
         </aside>
       </div>
@@ -59,3 +63,14 @@
   
   </body>
 </html>
+
+<script type="text/javascript">
+    var timerId =
+  countdown(
+    new Date(),
+    function(ts) {
+      document.getElementById('countdown').innerHTML = ts.toHTML("strong");
+    },
+    countdown.DAYS|countdown.HOURS|countdown.MINUTES|countdown.SECONDS);
+
+</script>
