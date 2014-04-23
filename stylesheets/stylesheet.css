@@ -376,6 +376,29 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+#overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  position: fixed;
+  text-align: center;
+  padding: 30px;
+}
+
+#overlay h1 {
+  color: #FFFFFF;
+}
+
+#overlay div {
+  box-shadow: 0px 0px 20px black;
+  -webkit-box-shadow: 0px 0px 20px black;
+  display: inline-flex;
+  background-color: #000000;
+}
+
 /* #Media Queries
 ================================================== */
 
