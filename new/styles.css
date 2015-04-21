@@ -16,13 +16,13 @@
 	#headline {
 		font-size: 2em;
 		text-transform: uppercase;
-		width: 300px;
+		width: 270px;
 		display: inline-block;
 		line-height: 27px;
 	}
 	#page {
 		margin: auto;
-		width: 800px;
+		width: 700px;
 	}
 	
 	a {
@@ -34,17 +34,18 @@
 		border: 1px solid;
 		position: absolute;
 		margin-top: 47px;
-		width: 800px;
+		width: 700px;
 	}
 
 	.nav {
 		display: inline-block;
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.nav ul {
 		display: flex;
 		list-style-type: none;
+		padding: 0;
 	}
 	.nav li {
 		padding: 0 10px
@@ -63,7 +64,7 @@
 
 	.fb-page {
 		position: absolute !important;
-		margin-left: 830px;
+		margin-left: 730px;
 		top: 170px;
 	}
 
