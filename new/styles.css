@@ -1,0 +1,67 @@
+<style>
+	* {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	body {
+		margin: 0;
+		background-color: #F8F1C4;
+		font-family: 'Sanchez', 'Verdana', serif, sans-serif;
+	}
+	#banner {
+		height: 125px;
+		background: url('img/flags.png');
+	}
+	#headline {
+		font-size: 2em;
+		text-transform: uppercase;
+		width: 300px;
+		display: inline-block;
+		line-height: 27px;
+	}
+	#page {
+		margin: auto;
+		width: 800px;
+	}
+	
+	a {
+		text-decoration: initial;
+		color: initial;
+	}
+
+	hr {
+		border: 1px solid;
+		position: absolute;
+		margin-top: 47px;
+		width: 800px;
+	}
+
+	.nav {
+		display: inline-block;
+		font-size: 20px;
+	}
+
+	.nav ul {
+		display: flex;
+		list-style-type: none;
+	}
+	.nav li {
+		padding: 0 10px
+	}
+
+	iframe {
+		border: transparent;
+		width: 100%;
+		height: 1000px;
+	}
+
+	p::first-letter { 
+		font-size: 200%;
+		/*color: #8A2BE2;*/
+	}
+
+	.fb-page {
+		
+	}
+</style>
