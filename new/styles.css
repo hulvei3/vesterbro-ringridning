@@ -56,6 +56,10 @@
 		padding: 0 10px;
 	}
 
+	.content {
+		margin-top: 50px
+	}
+
 	iframe[name=content] {
 		border: transparent;
 		width: 100%;
