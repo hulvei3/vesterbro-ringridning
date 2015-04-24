@@ -55,6 +55,9 @@
 	.nav li {
 		padding: 0 10px;
 	}
+	.nav a:hover {
+		text-decoration: underline;
+	}
 
 	.content {
 		margin-top: 50px
