@@ -4,6 +4,7 @@
 <style>
 	.media-table img {
 		width: 100%;
+		cursor: pointer;
 	}
 	iframe[name=teaser] {
 		width: 100%;
@@ -46,3 +47,13 @@
 		<td><img src="media/2013/7.jpg" /></td>
 	</tr>
 </table>
+
+<script type="text/javascript">
+	var images = document.querySelectorAll('.media-table img');
+	images = Array.prototype.slice.call(images);
+	images.forEach(function(img) {
+		img.addEventListener('click', function(e) {
+			window.open(e.target.src, '_blank');
+		})
+	});
+</script>
