@@ -45,6 +45,19 @@
 
 	window.addEventListener("hashchange", updateIframe);
 
+	var fbWidgetWidth = document.querySelector('.fb-page').attributes.getNamedItem('data-width');
+	window.addEventListener("resize", function() {
+		var width = window.innerWidth;
+		if (width < 1400) {
+			fbWidgetWidth.value = 200;
+		} else if (width < 1500) {
+			fbWidgetWidth.value = 300;
+		} else if (width > 1600) {
+			fbWidgetWidth.value = 400;
+		}
+	});
+	
+
 	// init FB
 	(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
