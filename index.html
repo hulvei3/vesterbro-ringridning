@@ -10,13 +10,7 @@
 
 	<script type="text/javascript">
 
-		updateIframe = function(e) {
-			var hash = new URL(e.newURL).hash;
-			var iframe = document.querySelector('iframe[name=content]');
-			iframe.src = hash.substring(1) + '.html';
-		}
-
-		window.addEventListener("hashchange", updateIframe);
+		
 	</script>
 </head>
 <body>
