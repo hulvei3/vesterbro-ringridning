@@ -10,7 +10,7 @@ var about = React.createClass({ displayName: 'Page.about',
 				<li>Jakob Jakobsen Boysen</li>
 				Opvokset ved Nordborg. Jakob er uddannet softwareingeniør fra Danmarks Tekniske Universitet 2014, og arbejder ved Novo Nordisk.
 				<li>Sara Stricker</li>
-				Opvokset i Bovrup. Sara studerer til sygeplejeske på Diakonissestiftelsens Sygeplejeskole, og er i sin sidste praktik på retspsykiatrisk afdeling på Sankt Hans Hospital.
+				Opvokset i Bovrup. Sara studerer til sygeplejeske på Diakonissestiftelsens Sygeplejeskole.
 				<li>Christian Michelsen</li>
 				Fra Lysabild på Als. Christian er i øjeblikket i gang med at færdiggøre sin ingeniøruddannelse i mekanik og konstruktion på Danmarks Tekniske Universitet.
 				<li>Philip Hansen Frank</li>
