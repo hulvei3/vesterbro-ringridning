@@ -12,7 +12,7 @@
 	}
 	#banner {
 		height: 125px;
-		background: url('img/flags.png');
+		background: url('../img/flags.png');
 	}
 	#headline {
 		font-size: 2em;
@@ -24,7 +24,7 @@
 	}
 	#page {
 		margin: auto;
-		width: 700px;
+		width: 1200px;
 	}
 	
 	a {
@@ -32,11 +32,16 @@
 		color: initial;
 	}
 
-	hr {
+	#page > hr {
 		border: 1px solid #202020;
 		position: absolute;
 		margin-top: 51px;
-		width: 700px;
+		width: 1200px;
+	}
+
+	#page > footer {
+		margin: 100px 0;
+		text-align: center;
 	}
 
 	.nav {
@@ -63,21 +68,32 @@
 		margin-top: 50px
 	}
 
-	iframe[name=content] {
-		border: transparent;
-		width: 100%;
-		height: 1000px;
+	.sponsor-list a img {
+		max-width: 200px;
+		margin: 50px;
+	}
+
+	.img-gallery .image-gallery-content {
+		width: 500px;
+		margin: auto
+	}
+
+	.img-gallery .image-gallery-thumbnails {
+		background: transparent;
+		padding: 10px;
 	}
 
 	p::first-letter { 
 		font-size: 200%;
-		/*color: #8A2BE2;*/
 	}
 
-	.fb-page {
-		position: absolute !important;
-		margin-left: 730px;
-		top: 170px;
+	.fb-container {
+		width: 340px;
+		height: 700px;
+
+		top: 175px;
+		right: 20px;
+		position: absolute;
 	}
 
 </style>
