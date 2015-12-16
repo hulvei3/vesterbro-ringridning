@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
 	entry: "./src/main",
 	output: {
@@ -6,7 +8,8 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
+			{ test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader"},
+			{ test: /\.jpg$|\.png$/, loader: "file-loader?name=[path][name].[ext]"}
 		]
 	},
 	devtool: '#source-map'

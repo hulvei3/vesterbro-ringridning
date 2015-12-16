@@ -33,19 +33,24 @@ var app = React.createClass({
 					<div className="nav">
 						<ul>
 							<li><a href="#pictures">	Billeder</a></li>
-							<li><a href="#about">		Bestyrelsen</a></li>
-						</ul>
-						<ul>
-							<li><a href="#contact">		Kontakt</a></li>
 							<li><a href="#press">		Presse</a></li>
 							<li><a href="#sponsors">	Sponsorer</a></li>
+							<li><a href="#about">		Bestyrelsen</a></li>
+							<li><a href="#contact">		Kontakt</a></li>
 						</ul>
 					</div>
 					<div className="content">
 						<CurrentPage />
 					</div>
 
-					<div className="fb-page" data-href="https://www.facebook.com/VesterbroRingridning" data-width="300" data-height="800" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div className="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/VesterbroRingridning"><a href="https://www.facebook.com/VesterbroRingridning"></a></blockquote></div></div>
+					<footer>
+						<hr />
+						© Vesterbro Ringridning est. 2013 | CVR: 35575006
+					</footer>
+
+				</div>
+				<div className="fb-container">
+					<div className="fb-page" data-href="https://www.facebook.com/vesterbro-ringridning" data-height="800" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div className="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/vesterbro-ringridning"><a href="https://www.facebook.com/vesterbro-ringridning">Vesterbro Ringridning</a></blockquote></div></div>
 				</div>
 			</div>
 		);
