@@ -12,7 +12,7 @@
 	}
 	#banner {
 		height: 125px;
-		background: url('img/flags.png');
+		background: url('../img/flags.png');
 	}
 	#headline {
 		font-size: 2em;
