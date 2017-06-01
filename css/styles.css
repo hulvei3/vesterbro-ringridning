@@ -105,23 +105,4 @@
 		margin: 50px;
 	}
 
-	.img-gallery .image-gallery-content {
-		width: 500px;
-		margin: auto
-	}
-
-	.img-gallery .image-gallery-thumbnails {
-		background: transparent;
-		padding: 10px;
-	}
-
-	.fb-container {
-		width: 340px;
-		height: 700px;
-
-		top: 175px;
-		right: 20px;
-		position: absolute;
-	}
-
 </style>

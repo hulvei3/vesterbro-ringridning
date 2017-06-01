@@ -5,21 +5,6 @@ var React = require('react');
 
 var app = React.createClass({
 
-	componentWillMount: function () {
-
-		// window.addEventListener("hashchange", (e) => {
-		// 	var hash = new URL(e.newURL).hash;
-		// 	this.setState({
-		// 		pageComponent: pages[hash.substring(1)] || React.createClass({render:function() { return <div>404 Page not found</div> }})
-		// 	})
-		// });
-	},
-
-	getInitialState: function () {
-		return {
-		};
-	},
-
 	render: function() {
 		return (
 			<div>
